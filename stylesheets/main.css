@@ -287,6 +287,9 @@ footer .footer a {
 }
 
 @media only screen and (max-width: 40em) {
+  nav {
+    display: none;
+  }
   header img {
     width: 90%;
   }
