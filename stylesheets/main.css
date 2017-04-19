@@ -286,18 +286,76 @@ footer .footer a {
   src: url('fonts/product-sans.woff');
 }
 
-to;
-
-}
-@font-face {
-  font-family: 'Prototype';
-  src: url('fonts/prototype.ttf');
-}
-@font-face {
-  font-family: 'Devendless';
-  src: url('fonts/devendless.ttf');
-}
-@font-face {
-  font-family: 'Product Sans';
-  src: url('fonts/product-sans.woff');
+@media only screen and (max-width: 40em) {
+  header img {
+    width: 90%;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+  footer {
+    height: auto;
+  }
+  .about {
+    height: auto;
+  }
+  .articles {
+    display: flex;
+    flex-direction: column;
+  }
+  .post {
+    margin: 0;
+  }
+  .post img {
+    width: 86vw;
+    height: 54vw;
+  }
+  .thegameoftheyear {
+    font-size: 48px;
+  }
+  .thegameoftheyear p {
+    font-size: 28px;
+  }
+  .team {
+    height: auto;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .person {
+    display: flex;
+    flex-direction: column;
+    margin: 22px 20vw 12px 20vw;
+  }
+  .person img {
+    height: 40vw;
+    width: 40vw;
+  }
+  .linksto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .linksto li {
+    margin: 12px 22px 0 12px;
+  }
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+  .social li {
+    margin: 12px auto 0 12px;
+  }
+  .newsletter {
+    flex-direction: column;
+    padding: 28px 20px 56px 20px;
+    text-align: center;
+  }
+  .newsletter i {
+    display: none;
+  }
+  .newsletter span {
+    float: left;
+  }
 }
