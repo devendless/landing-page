@@ -41,12 +41,19 @@ header {
   display: flex;
   justify-content: center;
   height: 22vh;
+  width: 100%;
+}
+
+nav {
+  position: absolute;
+  bottom: 2vh;
+  left: 48.5vw;
 }
 
 footer {
   background-color: #4D99AE;
   border-top: 2px solid #24CAFB;
-  height: 28vh;
+  height: 32vh;
   width: 100%;
   position: absolute;
 }
@@ -68,7 +75,6 @@ h3 {
 }
 
 .container {
-  max-width: 1366px;
   margin: 0 auto;
   font-family: 'Prototype';
   color: #0E4F62;
@@ -76,7 +82,7 @@ h3 {
 
 .about {
   height: 78vh;
-  padding: 0 109px 0 109px;
+  padding: 0 7vw 0 7vw;
 }
 
 .articles {
@@ -91,11 +97,24 @@ h3 {
   text-align: justify;
 }
 
+.post img {
+  width: 26vw;
+  height: 16vw;
+}
+
+.post p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*white-space: nowrap;*/
+}
+
 .bote {
-  background-image: url('../images/progenitus.jpg');
+  background-image: url('../images/BotE.png'), linear-gradient(135deg, #ffffff 0%, #3f5338 100%);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
   height: 100vh;
+  width: 100%;
   display: flex;
   align-items: flex-end;
 }
@@ -112,8 +131,8 @@ h3 {
 }
 
 .team {
-  height: 72vh;
-  padding: 0 109px 0 109px;
+  height: 100vh;
+  padding: 0 7vw 0 7vw;
 }
 
 .team h3 {
@@ -130,7 +149,7 @@ h3 {
 .person {
   display: flex;
   flex-direction: column;
-  margin: 22px 75px 12px 75px;
+  margin: 22px 5vw 12px 5vw;
   text-align: center;
 }
 
@@ -138,6 +157,8 @@ h3 {
   border: 12px solid #0E4E61;
   border-radius: 50%;
   margin: 0 0 12px 0;
+  height: 10vw;
+  width: 10vw;
 }
 
 .person p {
@@ -260,6 +281,22 @@ footer .footer a {
   src: url('fonts/devendless.ttf');
 }
 
+@font-face {
+  font-family: 'Product Sans';
+  src: url('fonts/product-sans.woff');
+}
+
+to;
+
+}
+@font-face {
+  font-family: 'Prototype';
+  src: url('fonts/prototype.ttf');
+}
+@font-face {
+  font-family: 'Devendless';
+  src: url('fonts/devendless.ttf');
+}
 @font-face {
   font-family: 'Product Sans';
   src: url('fonts/product-sans.woff');
