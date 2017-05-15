@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="752px" height="753px" viewBox="0 0 752 753" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>symbol</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="8" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.49830163 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1024x1024" transform="translate(-144.000000, -57.000000)">
+            <g id="symbol" filter="url(#filter-1)" transform="translate(150.000000, 71.000000)">
+                <ellipse id="Oval" fill="#0E4F62" cx="362" cy="362.5" rx="362" ry="362.5"></ellipse>
+                <ellipse id="Oval-2" fill="#050C1B" cx="362" cy="362.5" rx="245.030641" ry="245.369081"></ellipse>
+                <ellipse id="Oval-2" fill="#0E4F62" cx="365.02507" cy="357.451253" rx="215.788301" ry="216.086351"></ellipse>
+                <ellipse id="Oval-2" fill="#050C1B" cx="383.175487" cy="357.451253" rx="213.771588" ry="214.066852"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
